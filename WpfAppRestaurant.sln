@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppRestaurant", "WpfAppRestaurant\WpfAppRestaurant.csproj", "{71580339-570D-45D4-A944-FB26CF15E851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{401E2EDD-7ABA-45D4-92DB-210064AAFD59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71580339-570D-45D4-A944-FB26CF15E851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71580339-570D-45D4-A944-FB26CF15E851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71580339-570D-45D4-A944-FB26CF15E851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71580339-570D-45D4-A944-FB26CF15E851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{401E2EDD-7ABA-45D4-92DB-210064AAFD59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401E2EDD-7ABA-45D4-92DB-210064AAFD59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{401E2EDD-7ABA-45D4-92DB-210064AAFD59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{401E2EDD-7ABA-45D4-92DB-210064AAFD59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5AC52DC-75A3-4175-A789-8F8042E752E9}
+	EndGlobalSection
+EndGlobal
