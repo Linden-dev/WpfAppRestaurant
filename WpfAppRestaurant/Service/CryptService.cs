@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace WpfAppRestaurant.Service
 {
-    internal static class CryptService
+    public static class CryptService
     {
         private static byte[] key = Encoding.UTF8.GetBytes("CULTUROLOGICALLY");
 
@@ -22,10 +25,9 @@ namespace WpfAppRestaurant.Service
         public static string EncryptCesar(string text)
         {
             StringBuilder res = new StringBuilder();
-            byte[] data = Encoding.UTF8.GetBytes(text);
-            foreach (var item in data)
+            foreach (var ch in text)
             {
-                res.Append((char)(item + 7));
+                res.Append((char)(ch + 7));
             }
             Console.WriteLine("The text was encrypted by cesar cipher.");
             return res.ToString();

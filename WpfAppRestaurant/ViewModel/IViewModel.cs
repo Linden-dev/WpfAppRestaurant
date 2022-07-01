@@ -2,7 +2,7 @@
 
 namespace WpfAppRestaurant.ViewModel
 {
-    internal interface IViewModel
+    interface IViewModel
     {
         Action CloseAction { get; set; }
 

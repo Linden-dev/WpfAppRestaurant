@@ -1,10 +1,14 @@
-﻿using System.Linq;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using WpfAppRestaurant.Data;
 using WpfAppRestaurant.Service;
 
 namespace WpfAppRestaurant.ManageData
 {
-    internal static class UserInfoManage
+    static class UserInfoManage
     {
         public static bool IsUserExists(string login, string password)
         {

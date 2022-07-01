@@ -1,9 +1,14 @@
-﻿using System.Windows;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
 using WpfAppRestaurant.ViewModel;
 
 namespace WpfAppRestaurant.Service
 {
-    internal static class WindowService
+    static class WindowService
     {
         public static void ShowWindow<T>(IViewModel DataContext) where T : Window, new()
         {

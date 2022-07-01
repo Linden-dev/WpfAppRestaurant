@@ -1,8 +1,13 @@
-﻿using System.Windows;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
 
 namespace WpfAppRestaurant.Service
 {
-    internal static class MessageBoxService
+    static class MessageBoxService
     {
         public enum MessageType
         {
@@ -14,7 +19,7 @@ namespace WpfAppRestaurant.Service
 
         public static void ShowMessage(string text, string caption, MessageType messageType)
         {
-            switch (messageType)
+            switch(messageType)
             {
                 case MessageType.Warning:
                     {

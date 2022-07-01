@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="WpfAppRestaurant.ViewModel.AuthorizationViewModel" BaseTypeListCollapsed="true">
-    <Position X="8.5" Y="1" Width="2.5" />
+    <Position X="12.5" Y="1" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIAKAACAAAAAAoACAAAAAgBAAAAAAAAAQAgAAEAA=</HashCode>
+      <HashCode>AAAAIACAACAAAAAAoACAAAAAgAAAAAAAAAAQAgAAEAA=</HashCode>
       <FileName>ViewModel\AuthorizationViewModel.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="WpfAppRestaurant.ViewModel.DelegateCommand" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="2.5" Y="1.5" Width="1.5" />
+  <Class Name="WpfAppRestaurant.ViewModel.DelegateCommand" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAQEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ViewModel\DelegateCommand.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="WpfAppRestaurant.ManageData.UserInfoManage" Collapsed="true">
+  <Class Name="WpfAppRestaurant.ManageData.UserInfoManage">
     <Position X="2.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -30,7 +30,7 @@
       <FileName>Service\WindowService.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="WpfAppRestaurant.Service.CryptService" Collapsed="true">
+  <Class Name="WpfAppRestaurant.Service.CryptService">
     <Position X="4.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABCAAAAAAAAAAAAAAEAAAAAAACAAAIAAAIAAAAAAA=</HashCode>
@@ -61,28 +61,28 @@
       <FileName>Service\MessageBoxService.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="WpfAppRestaurant.Service.UserInfoFileService" Collapsed="true">
-    <Position X="0.75" Y="2.5" Width="1.5" />
+  <Class Name="WpfAppRestaurant.Service.UserInfoFileService">
+    <Position X="2" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAgAACAAAAAAAAACAAAAAAAAAAAAAIAABAAAAAA=</HashCode>
       <FileName>Service\UserInfoFileService.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="WpfAppRestaurant.Data.DbRestaurantUserInfo" Collapsed="true">
-    <Position X="0.75" Y="1.5" Width="1.5" />
+  <Class Name="WpfAppRestaurant.Data.DbRestaurantUserInfo">
+    <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAEAAAAAAAAQA=</HashCode>
       <FileName>Data\DbRestaurantUserInfo.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="WpfAppRestaurant.Data.vw_user_role_permission" Collapsed="true">
-    <Position X="4.25" Y="2.5" Width="1.5" />
+  <Class Name="WpfAppRestaurant.Data.vw_user_role_permission">
+    <Position X="8" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAIAAgAhAAAAAAAAQAAICAAAIABAAAQAAAAEAAAA=</HashCode>
       <FileName>Data\vw_user_role_permission.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="WpfAppRestaurant.View.AuthorizationWindow" Collapsed="true" BaseTypeListCollapsed="true">
+  <Class Name="WpfAppRestaurant.View.AuthorizationWindow" BaseTypeListCollapsed="true">
     <Position X="2.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -90,16 +90,16 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="WpfAppRestaurant.View.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="4.25" Y="1.5" Width="1.5" />
+  <Class Name="WpfAppRestaurant.View.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="4" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>View\MainWindow.xaml.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Interface Name="WpfAppRestaurant.ViewModel.IViewModel" Collapsed="true">
-    <Position X="0.75" Y="3.75" Width="1.5" />
+  <Interface Name="WpfAppRestaurant.ViewModel.IViewModel">
+    <Position X="0.5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ViewModel\IViewModel.cs</FileName>

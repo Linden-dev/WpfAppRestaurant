@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace WpfAppRestaurant.ViewModel
 {
-    internal class DelegateCommand : System.Windows.Input.ICommand
+    class DelegateCommand : System.Windows.Input.ICommand
     {
         private readonly Predicate<object> _canExecute;
         private readonly Action<object> _execute;
